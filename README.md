@@ -1,2 +1,38 @@
-# manual-bagging-breast-cancer
-Compare base and ensemble decision tree models for accurate breast cancer detection using the Wisconsin dataset.
+# Breast Cancer Classification - Ensemble Learning with Decision Trees
+
+This machine learning project focuses on classifying tumors as **malignant** or **benign** using the Breast Cancer dataset. The approach includes both a base decision tree model and a manually constructed ensemble using bagging.
+
+---
+
+## 📋 Sections Covered in the Notebook
+
+1. **Import Libraries**  
+2. **Load and Explore the Dataset**  
+3. **Data Cleaning & Preprocessing**  
+4. **Visualize Important Features**  
+5. **Train-Test Split**  
+6. **Helper Functions**  
+7. **Manual Bagging with Decision Trees**  
+8. **Evaluate Ensemble Predictions**  
+9. **Base Model (Single Tree) for Comparison**  
+10. **Compare Sample Predictions**  
+11. **Classification Report** *(new)*  
+12. **Conclusion & Insights** *(new)*
+
+---
+
+## 📈 Results
+
+| Model        | Accuracy | Notes |
+|--------------|----------|-----------------------------|
+| Base Model   | 84.8%    | Single Decision Tree        |
+| Ensemble     | 85.8%    | Majority vote of 3 models   |
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo  
+2. Install required packages  
+   ```bash
+   pip install -r requirements.txt
