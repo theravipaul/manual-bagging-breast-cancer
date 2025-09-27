@@ -1,3 +1,5 @@
+#📈 Model Performance Comparison — Manual Bagging Ensemble vs Base Model on Breast Cancer Dataset
+![image alt](https://github.com/theravipaul/manual-bagging-breast-cancer/blob/5187d0ba56a1797216cadb1d1ae3327a9ca9854c/Screenshot%202025-09-27%20232441.png)
 # Breast Cancer Classification - Ensemble Learning with Decision Trees
 
 This machine learning project focuses on classifying tumors as **malignant** or **benign** using the Breast Cancer dataset. The approach includes both a base decision tree model and a manually constructed ensemble using bagging.
